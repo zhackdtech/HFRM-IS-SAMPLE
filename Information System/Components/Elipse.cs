@@ -12,7 +12,6 @@ namespace Information_System.Components
 {
     internal class Elipse : Component
     {
-        private Control hostControl;
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
             (
